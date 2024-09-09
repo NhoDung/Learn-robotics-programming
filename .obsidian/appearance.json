@@ -1,0 +1,9 @@
+{
+  "accentColor": "",
+  "interfaceFontFamily": "Cascadia Mono,JetBrains Mono",
+  "textFontFamily": "Cascadia Mono,JetBrains Mono",
+  "monospaceFontFamily": "Cascadia Mono,JetBrains Mono",
+  "baseFontSize": 14,
+  "theme": "moonstone",
+  "nativeMenus": false
+}
