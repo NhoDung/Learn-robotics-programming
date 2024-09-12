@@ -87,3 +87,11 @@ Các bước gồm có:
 	ros2 pkg create --build-type ament_cmake --license Apache-2.0 --node-name my_node my_package
 	# Step 3: Build and source environment
 ```
+
+## 3.2 Example: Writing a simple publisher - subscriber by C++
+- **Task 1:** Create package
+- **Task 2:** Write the publisher node
+	- Step 1: Examine the code -> `.cpp`
+	- Step 2: Add dependencies -> `package.xml`
+	- Step 3: `CMakeLists.txt`
+- **Task 3:** Write the subscriber node
