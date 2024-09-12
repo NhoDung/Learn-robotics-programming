@@ -9,6 +9,10 @@
 	ros2 action list
 	ros2 param list
 ```
+- List of executables packages:
+```bash
+	ros2 pkg executables <package_name>
+```
 
 # 1 Node
 - Cmd run 1 node:
