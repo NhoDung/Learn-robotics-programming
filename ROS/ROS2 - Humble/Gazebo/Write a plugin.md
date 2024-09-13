@@ -66,7 +66,33 @@
 
 
 # 2 Model plugins
+- Step: Write `.cc` file contains plugin source code
+- Step: Add plugin to CMakeLists.txt
+```txt
+	# Add to CMakeLists.txt
+	add_library(model_push SHARED model_push.cc)
+	target_link_libraries(model_push ${GAZEBO_LIBRARIES})
+```
+- Step: Compiling plugin to `.so` file
+```bash
+	mkdir build && cmake ../ && make
+```
+- Step: Add plugin to model in `.world` file
+```xml
+	<model name="box">
+		<!-- some code here -->
 
+		<plugin name="model_push" filename="libmodel_push.so"/>
+	</model>
+```
+- Step: Add library path to `GAZEBO_PLUGIN_PATH`:
+```bash
+	export GAZEBO_PLUGIN_PATH=$HOME/gazebo_plugin_tutorial/build:$GAZEBO_PLUGIN_PATH
+```
+- Step: Start simulation
+```bash
+	gazebo model_push.world
+```
 # 3 World plugins
 
 # 4 Programmatic world control
