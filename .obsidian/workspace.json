@@ -8,67 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4e08531361742633",
+            "id": "d332b79615332e19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROS/ROS2 - Humble/Gazebo/Write a plugin.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "749b9be9858434fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROS/ROS2 - Humble/Gazebo/Connect/Connect to Player.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec81bd5d7f2ee847",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROS/ROS2 - Humble/Gazebo/Write a plugin.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "60353bdf266d3b2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROS/ROS2 - Humble/Gazebo/Gazebo plugin in ROS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c5b83d0a939cb53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROS/ROS2 - Humble/Tutorial/Client libraries.md",
+                "file": "ROS/Navigation 2/Concepts.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ROS/ROS2 - Humble/Tutorial/Client libraries.md",
+                "file": "ROS/Navigation 2/Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ROS/ROS2 - Humble/Tutorial/Client libraries.md",
+                "file": "ROS/Navigation 2/Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROS/ROS2 - Humble/Tutorial/Client libraries.md"
+                "file": "ROS/Navigation 2/Concepts.md"
               }
             }
           }
@@ -183,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 767.5
+    "width": 475.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,8 +149,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "5c5b83d0a939cb53",
+  "active": "d332b79615332e19",
   "lastOpenFiles": [
+    "ROS/Controler/Concepts 1.md",
+    "ROS/Navigation 2/Concepts.md",
+    "README.md",
+    "ROS/ROS2 - Humble/Tutorial/Intermediate.md",
+    "ROS/Controler",
+    "ROS/Navigation 2",
+    "ROS/ROS2 - Humble/Tutorial/Beginner - Client libraries.md",
+    "ROS/ROS2 - Humble/Tutorial/Beginner - CLI tools.md",
+    "ROS/ROS2 - Humble/Install & Setup.md",
     "ROS/ROS2 - Humble/Gazebo/Write a plugin.md",
     "ROS/ROS2 - Humble/Gazebo/ROS plugin.md",
     "ROS/ROS2 - Humble/Gazebo/Gazebo plugin in ROS.md",
@@ -207,13 +167,9 @@
     "ROS/ROS2 - Humble/Gazebo/Building a robot.md",
     "ROS/ROS2 - Humble/Gazebo/Connect/Connect to ROS.md",
     "ROS/ROS2 - Humble/Gazebo/Connect/Connect to Player.md",
-    "ROS/ROS2 - Humble/Tutorial/Client libraries.md",
     "ROS/ROS2 - Humble/Gazebo/Beginner.md",
-    "ROS/ROS2 - Humble/Install & Setup.md",
     "TurtleBot3/Tutorial.md",
     "TurtleBot3/Install & Setup.md",
-    "ROS/ROS2 - Humble/Tutorial/CLI tools.md",
-    "README.md",
     "ROS/ROS2 - Humble/Gazebo/Connect",
     "ROS/ROS2 - Humble/Gazebo",
     "ROS/ROS2 - Humble/Tutorial",
@@ -222,7 +178,6 @@
     "ROS/ROS2 - Humble",
     "ROS/ROS2",
     "ROS/ROS1",
-    "ROS",
     "Operating Systems/Ubuntu/Ubuntu.md",
     "Note taking App/Obsidian.md",
     "Note taking App/Notion.md",
@@ -231,11 +186,7 @@
     "Note taking App/Texstudio.md",
     "Note.md",
     "Operating System.md",
-    "Note taking App",
     "robotics-programming/tutorials/Robotics programming.md",
-    "robotics-programming/tutorials/Ros2.md",
-    "robotics-programming/tutorials/turtlebot3-simulattion.md",
-    "robotics-programming/tutorials/write-new-planner-plugin-nav2.md",
     "robotics-programming/tutorials/Robot-programming.canvas"
   ]
 }

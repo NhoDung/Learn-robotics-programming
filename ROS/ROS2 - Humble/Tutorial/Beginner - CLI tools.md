@@ -14,7 +14,9 @@
 	ros2 pkg executables <package_name>
 ```
 
-# 1 Node
+# 1 TurtleSim
+
+# 2 Node
 - Cmd run 1 node:
 ```bash
 	ros2 run <pkg_name> <executable_name>
@@ -30,7 +32,7 @@
 	ros2 node info <node_name> # Sử dụng tên được liệt kê khi sử dụng node list
 ```
 
-# 2 Topic
+# 3 Topic
 
 ```bash
 	ros2 topic list # Liệt kê các topics hiện có
@@ -40,13 +42,13 @@
 	ros2 topic info <topic_name> # Xem info của topic ví dụ: Type, publisher count, subscription count
 ```
 
-# 3 Service
+# 4 Service
 
-# 4 Action
+# 5 Action
 
-# 5 Parameter
+# 6 Parameter
 
-# 6 Launching nodes
+# 7 Launching nodes
 ```bash
 	ros2 launch turtlesim multisim.launch.py # File turtlesim/launch/multisim.launch.py will be runned by command
 ```

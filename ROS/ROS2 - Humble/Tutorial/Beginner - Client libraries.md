@@ -358,9 +358,73 @@ Các bước gồm có:
 ```
 
 ## 4.5 Example: Creating custom msg and srv file
+- **Task 1:** Create package & Custom `.msg` and `.srv` files
+```bash
+	ros2 pkg create --build-type ament_cmake --license Apache-2.0 tutorial_interfaces
 
+	# Create folder containing .msg and .srv file
+	mkdir msg srv
+```
+- **Task 2:** Definition `.msg` and `.srv` file
+```txt
+	# Num.msg file
+	int64 num
+
+	# Sphere.msg file
+	geometry_msgs/Point center
+	float64 radius
+
+	# AddThreeInts.srv file
+	int64 a
+	int64 b
+	int64 c
+	---
+	int64 sum
+```
+- Để convert interfaces tự định nghĩa sang ngôn ngữ lập trình như C++ hay Python (Để sử dụng trong những ngôn ngữ này) thì thêm dòng sau vào `CMakeLists.txt`
+```txt
+	find_package(geometry_msgs REQUIRED)
+	find_package(rosidl_default_generators REQUIRED)
+
+	rosidl_generate_interfaces(${PROJECT_NAME}
+	  "msg/Num.msg"
+	  "msg/Sphere.msg"
+	  "srv/AddThreeInts.srv"
+	  DEPENDENCIES geometry_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
+	)
+```
+> Note: IDL - Interface Definition Language
+- Vì các interface nhờ vào `rosidl_default_generators` để generating to code -> Cần declare 1 build tool dependency trên nó. Add following lines within `<package>` element
+```xml
+	<depend>geometry_msgs</depend>
+	<buildtool_depend>rosidl_default_generators</buildtool_depend>
+	<exec_depend>rosidl_default_runtime</exec_depend>
+	<member_of_group>rosidl_interface_packages</member_of_group>
+```
+### 4.5.1 Option 1: Test with no source code
+- Build workspace and source environment
+- Confirm interface creation worked by using command `ros2 interface show`
+```bash
+	# Check msgs
+	ros2 interface show tutorial_interfaces/msg/Num
+
+	# Check srv
+	ros2 interface show tutorial_interfaces/srv/AddThreeInts
+```
+### 4.5.2 Option 2: Test message with pub/sub
+
+
+### 4.5.3 Option 3: Test service with srv/cli
 ## 4.6 Example: Implementing custom interfaces
 
 ## 4.7 Example: Using parameter in a class by C++
 
 ## 4.8 Example: Creating and using plugins by C++
+- `pluginlib` : A C++ library for loading and unloading plugins from within a ROS package
+- Plugin: Dynamically loadable classes (Các lớp có thể load tự động) và được load from a runtime library
+- Pluginlib có thể open a library chứa exported classes bất kỳ lúc nào mà không cần biết trước về library hay header file chứa class definition
+- Plugin rất hữu dụng để mở rộng hoặc thay đổi application behavior mà không cần biết application source code
+
+### 4.8.1 Create base class package
+
+### 4.8.2 Create plugin package

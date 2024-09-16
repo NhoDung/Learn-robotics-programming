@@ -8,6 +8,8 @@ All basic knowledge about robotics programming
 - [ROS 2 Documentation — ROS 2 Documentation: Humble documentation](https://docs.ros.org/en/humble/index.html) :
 - [Gazebo : Tutorials (gazebosim.org)](https://classic.gazebosim.org/tutorials) : Gazebo Classic
 - [Gazebo Tutorials — Gazebo harmonic documentation (gazebosim.org)](https://gazebosim.org/docs/latest/tutorials/) : New Gazebo
+- [Nav2 — Nav2 1.0.0 documentation](https://docs.nav2.org/)
+- [Welcome to the ros2_control documentation! — ROS2_Control: Rolling Sep 2024 documentation](https://control.ros.org/rolling/index.html)
 
 # 3 Recommendation for installation
 - [Ubuntu Jammy 22.04](https://www.releases.ubuntu.com/jammy/)
