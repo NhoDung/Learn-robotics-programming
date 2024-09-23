@@ -96,7 +96,8 @@
 ## 6.3 Task: Using subsituations
 - Launch file được sử dụng để start nodes, services và execute processes -> Những actions này đôi khi có thể có tham số và ảnh hưởng đến behavior
 - Subsituations được sử dụng trong tham số để cung cấp hơn nữa sự linh hoạt khi mô tả reusable launch files
-- Subsituations là các variables chỉ được đánh giá trong suốt thời gian thực thi của launch description và có thể được sử dụng để thu thập thông tin cụ thể như launch configuration, environment variable or to 
+	- Subsituations là các variables chỉ được đánh giá trong suốt thời gian thực thi của launch description và có thể được sử dụng để thu thập thông tin cụ thể như launch configuration, environment variable or to evaluate một Python expression ngẫu nhiên
+> Subsituation để cấu hình arguments thông qua cmd
 
 
 
