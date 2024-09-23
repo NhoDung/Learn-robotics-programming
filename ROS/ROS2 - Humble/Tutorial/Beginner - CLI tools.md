@@ -15,6 +15,11 @@
 ```
 
 # 1 TurtleSim
+- `/spawn` : Là 1 service to create another turtlesim_node in turtlesim window. Lưu ý là phải đặt tên khác cho turtlesim_node
+- Remapping được sử dụng để thay tên cho 1 service khi một service được dùng lại nhưng cho các nodes khác
+```bash
+	ros2 run turtlesim turtle_teleop_key --ros-args --remap turtle1/cmd_vel:=turtle2/cmd_vel
+```
 
 # 2 Node
 - Cmd run 1 node:

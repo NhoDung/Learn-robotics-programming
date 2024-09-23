@@ -49,3 +49,54 @@
 	mkdir launch
 ```
 - Step 2: Write launch file
+- Step 3: Run launch file
+```bash
+	# Cách 1: Go to launch directory 
+	cd launch && ros2 launch turtlesim_mimic_launch.py
+
+	# Cách 2: Run directly launch file provided by a package
+	ros2 launch <package_name> <launch_file_name>
+	# Lưu ý để sử dụng được cách 2 thì cần add <exec_depend> to package.xml
+	# <exec_depend>ros2launch</exec_depend>
+```
+
+## 6.2 Task: Integrating launch file into ROS 2 package
+- Step 1: Create package
+- Step 2: Create `launch` folder on the top-level of package and enabling colcon to locate and utilize launch files
+	- Python package: Include all launch file into `data_files` in `setup.py`
+	- C++ package: Install all launch file in `CMakeLists.txt`
+```python
+	import os
+	from glob import glob
+	# Other imports ...
+	
+	package_name = 'py_launch_example'
+	
+	setup(
+	    # Other parameters ...
+	    data_files=[
+	        # ... Other data files
+	        # Include all launch files.
+	        (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*launch.[pxy][yma]*')))
+	    ]
+	)
+```
+
+```CMake
+	# Install launch files.
+	install(DIRECTORY
+	  launch
+	  DESTINATION share/${PROJECT_NAME}/
+	)
+```
+- Step 3: Write launch file
+- Step 4: Building and run launch file
+
+
+## 6.3 Task: Using subsituations
+- Launch file được sử dụng để start nodes, services và execute processes -> Những actions này đôi khi có thể có tham số và ảnh hưởng đến behavior
+- Subsituations được sử dụng trong tham số để cung cấp hơn nữa sự linh hoạt khi mô tả reusable launch files
+- Subsituations là các variables chỉ được đánh giá trong suốt thời gian thực thi của launch description và có thể được sử dụng để thu thập thông tin cụ thể như launch configuration, environment variable or to 
+
+
+

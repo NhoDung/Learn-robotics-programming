@@ -1,7 +1,7 @@
 - Step 1: Setup ROS 2 environment (Nếu đã source từ trước rồi thì bỏ qua)
 ```bash
 	echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
-	
+
 	source ~/.bashrc
 ```
 - Step 2: Create workspace
