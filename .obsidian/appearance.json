@@ -3,7 +3,8 @@
   "interfaceFontFamily": "Cascadia Mono,JetBrains Mono",
   "textFontFamily": "Cascadia Mono,JetBrains Mono",
   "monospaceFontFamily": "Cascadia Mono,JetBrains Mono",
-  "baseFontSize": 14,
+  "baseFontSize": 12,
   "theme": "moonstone",
-  "nativeMenus": false
+  "nativeMenus": false,
+  "cssTheme": "Minimal"
 }

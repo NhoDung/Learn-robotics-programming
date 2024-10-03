@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0d2a9c62ca8d741b",
+        "id": "5156d3c23925e119",
         "type": "tabs",
         "children": [
           {
-            "id": "d332b79615332e19",
+            "id": "46a4f5cbf8583059",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROS/ROS2 - Humble/Tutorial/Beginner - Client libraries.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f162e84287d55df1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ROS/ROS2 - Humble/Tutorial/Intermediate.md",
+                "file": "ROS/ROS2 - Humble/Tutorial/1. CLI tools.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 454.5
   },
   "right": {
     "id": "adcc4d84bdf069bf",
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ROS/ROS2 - Humble/Tutorial/Intermediate.md",
+                "file": "ROS/ROS2 - Humble/Tutorial/1. CLI tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ROS/ROS2 - Humble/Tutorial/Intermediate.md",
+                "file": "ROS/ROS2 - Humble/Tutorial/1. CLI tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,16 +125,15 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROS/ROS2 - Humble/Tutorial/Intermediate.md"
+                "file": "ROS/ROS2 - Humble/Tutorial/1. CLI tools.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 475.5
+    "width": 390.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,47 +145,50 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "markdown-importer:Open format converter": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "f162e84287d55df1",
+  "active": "46a4f5cbf8583059",
   "lastOpenFiles": [
-    "README.md",
-    "Learning.md",
+    "ROS/ROS2 - Humble/Install & Setup.md",
+    "ROS/ROS2 - Humble/Tutorial/1. CLI tools.md",
+    "ROS/ROS2 - Humble/Tutorial/Problems/Working with ROS 2 enviroment.md",
+    "ROS/ROS2 - Humble/Tutorial/Problems",
     "ROS/ROS2 - Humble/Tutorial/Intermediate.md",
-    "ROS/ROS2 - Humble/Tutorial/Beginner - CLI tools.md",
-    "ROS/ROS2 - Humble/Tutorial/Beginner - Client libraries.md",
+    "ROS/ROS2 - Humble/Tutorial/2. Client libraries.md",
     "TurtleBot3/Tutorial.md",
     "TurtleBot3/Install & Setup.md",
-    "ROS/ROS2 - Humble/Gazebo/Building a world.md",
-    "ROS/ROS2 - Humble/Gazebo/Building a robot.md",
-    "ROS/Navigation 2/Concepts.md",
-    "ROS/Controler/Concepts 1.md",
-    "ROS/Controler",
-    "ROS/Navigation 2",
-    "ROS/ROS2 - Humble/Install & Setup.md",
-    "ROS/ROS2 - Humble/Gazebo/Write a plugin.md",
-    "ROS/ROS2 - Humble/Gazebo/ROS plugin.md",
-    "ROS/ROS2 - Humble/Gazebo/Gazebo plugin in ROS.md",
-    "ROS/ROS2 - Humble/Gazebo/Connect/Connect to ROS.md",
-    "ROS/ROS2 - Humble/Gazebo/Connect/Connect to Player.md",
-    "ROS/ROS2 - Humble/Gazebo/Beginner.md",
-    "ROS/ROS2 - Humble/Gazebo/Connect",
-    "ROS/ROS2 - Humble/Gazebo",
-    "ROS/ROS2 - Humble/Tutorial",
-    "TurtleBot3/Simulation",
-    "TurtleBot3",
-    "ROS/ROS2 - Humble",
-    "ROS/ROS2",
-    "ROS/ROS1",
-    "Operating Systems/Ubuntu/Ubuntu.md",
-    "Note taking App/Obsidian.md",
-    "Note taking App/Notion.md",
+    "README.md",
+    "Learning.md",
+    "Untitled.md",
+    "Operating Systems/Linux/linux.pdf",
+    "Development Environment/VCS/Github.md",
+    "Operating Systems/Ubuntu cmd/linux.pdf.crdownload",
+    "Operating Systems/Linux",
+    "Operating Systems/Install & Setup/ubuntu_22.04.md",
+    "Operating Systems/Install & Setup/Ubuntu.md",
+    "Operating Systems/Install & Setup/Ubuntu_24.04_LTS.md",
+    "Operating Systems/Install & Setup/Windows_11.md",
+    "Operating Systems/Install & Setup/Overview.md",
+    "Operating Systems/Ubuntu/IDE/IDE.md",
+    "Operating Systems/Ubuntu/IDE/PyCharm.md",
+    "Operating Systems/Ubuntu/IDE/Visual Studio Code.md",
+    "Development Environment/IDE/Microsoft/Visual Studio Code.md",
+    "Development Environment/IDE/Microsoft/Visual Studio.md",
+    "Operating Systems/Ubuntu/IDE/Visual Studio.md",
     "Operating Systems/Dual boot.md",
-    "Operating Systems/setup-os/ubuntu-22-04-lts/README.md",
-    "Note taking App/Texstudio.md",
-    "Note.md",
-    "Operating System.md",
+    "Development Environment/IDE/JetBrains/Intellij.md",
+    "Development Environment/DBMS/Database.md",
+    "Development Environment/IDE/JetBrains",
+    "Development Environment/DBMS",
+    "Development Environment/IDE/Microsoft",
+    "Development Environment/IDE",
+    "Development Environment/VCS",
+    "Untitled.canvas",
+    "test.png",
+    "Roadmap.canvas",
+    "piecesdb.json",
     "robotics-programming/tutorials/Robot-programming.canvas"
   ]
 }

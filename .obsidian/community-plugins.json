@@ -1,4 +1,9 @@
 [
-  "editing-toolbar",
-  "number-headings-obsidian"
+  "number-headings-obsidian",
+  "obsidian-completr",
+  "inline-admonitions",
+  "advanced-canvas",
+  "callout-suggestions",
+  "canvas-mindmap",
+  "callout-manager"
 ]
