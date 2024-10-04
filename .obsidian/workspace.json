@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROS/ROS2 - Humble/Tutorial/1. CLI tools.md",
+                "file": "ROS/ROS2 - Humble/Tutorial/Problems/demo_launch.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ROS/ROS2 - Humble/Tutorial/1. CLI tools.md",
+                "file": "ROS/ROS2 - Humble/Tutorial/Problems/demo_launch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ROS/ROS2 - Humble/Tutorial/1. CLI tools.md",
+                "file": "ROS/ROS2 - Humble/Tutorial/Problems/demo_launch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROS/ROS2 - Humble/Tutorial/1. CLI tools.md"
+                "file": "ROS/ROS2 - Humble/Tutorial/Problems/demo_launch.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -151,12 +152,24 @@
   },
   "active": "46a4f5cbf8583059",
   "lastOpenFiles": [
-    "ROS/ROS2 - Humble/Install & Setup.md",
     "ROS/ROS2 - Humble/Tutorial/1. CLI tools.md",
+    "ROS/ROS2 - Humble/Tutorial/Problems/demo_launch.md",
+    "Launch `turtlesim/launch/multisim.launch.py` để chạy 2 turtlesim_node sau đó publish data để 2 turtle di chuyển theo 1 đường tròn.md",
+    "ROS/ROS2 - Humble/Tutorial/Problems/demo_publish.md",
+    "Publish data trên `/turtle1/cmd_vel` để turtle di chuyển thành 1 hình tròn ?.md",
+    "Launch `turtlesim/launch",
+    "Launch `turtlesim",
+    "ROS/ROS2 - Humble/Tutorial/2. Client libraries.md",
+    "ROS/ROS2 - Humble/Gazebo/Gazebo plugin in ROS.md",
+    "ROS/ROS2 - Humble/Gazebo/Building a robot.md",
+    "ROS/ROS2 - Humble/Tutorial/Intermediate.md",
+    "Publish data trên `/turtle1",
+    "Publish data trên `",
+    "ROS/ROS2 - Humble/Tutorial/Problems/Run 2 turtle ?.md",
+    "ROS/ROS2 - Humble/Tutorial/Problems/Run 2 turtlesim_node trên cùng 1 GUI ?.md",
+    "ROS/ROS2 - Humble/Install & Setup.md",
     "ROS/ROS2 - Humble/Tutorial/Problems/Working with ROS 2 enviroment.md",
     "ROS/ROS2 - Humble/Tutorial/Problems",
-    "ROS/ROS2 - Humble/Tutorial/Intermediate.md",
-    "ROS/ROS2 - Humble/Tutorial/2. Client libraries.md",
     "TurtleBot3/Tutorial.md",
     "TurtleBot3/Install & Setup.md",
     "README.md",
@@ -173,22 +186,11 @@
     "Operating Systems/Install & Setup/Overview.md",
     "Operating Systems/Ubuntu/IDE/IDE.md",
     "Operating Systems/Ubuntu/IDE/PyCharm.md",
-    "Operating Systems/Ubuntu/IDE/Visual Studio Code.md",
-    "Development Environment/IDE/Microsoft/Visual Studio Code.md",
-    "Development Environment/IDE/Microsoft/Visual Studio.md",
-    "Operating Systems/Ubuntu/IDE/Visual Studio.md",
-    "Operating Systems/Dual boot.md",
-    "Development Environment/IDE/JetBrains/Intellij.md",
-    "Development Environment/DBMS/Database.md",
     "Development Environment/IDE/JetBrains",
     "Development Environment/DBMS",
-    "Development Environment/IDE/Microsoft",
-    "Development Environment/IDE",
-    "Development Environment/VCS",
     "Untitled.canvas",
     "test.png",
     "Roadmap.canvas",
-    "piecesdb.json",
     "robotics-programming/tutorials/Robot-programming.canvas"
   ]
 }
