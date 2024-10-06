@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROS/ROS2 - Humble/Tutorial/Problems/demo_launch.md",
+                "file": "ROS/ROS2 - Humble/Tutorial/Problems/Build một workspace có sẵn.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "045fbd25b4d5950c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ROS/ROS2 - Humble/Tutorial/2. Client libraries.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f6daa12e6e1b5edd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ROS/ROS2 - Humble/Tutorial/Problems/Fix include path.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 454.5
+    "width": 395.5
   },
   "right": {
     "id": "adcc4d84bdf069bf",
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ROS/ROS2 - Humble/Tutorial/Problems/demo_launch.md",
+                "file": "ROS/ROS2 - Humble/Tutorial/2. Client libraries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ROS/ROS2 - Humble/Tutorial/Problems/demo_launch.md",
+                "file": "ROS/ROS2 - Humble/Tutorial/2. Client libraries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROS/ROS2 - Humble/Tutorial/Problems/demo_launch.md"
+                "file": "ROS/ROS2 - Humble/Tutorial/2. Client libraries.md"
               }
             }
           }
@@ -150,42 +175,42 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "46a4f5cbf8583059",
+  "active": "045fbd25b4d5950c",
   "lastOpenFiles": [
-    "ROS/ROS2 - Humble/Tutorial/1. CLI tools.md",
-    "ROS/ROS2 - Humble/Tutorial/Problems/demo_launch.md",
-    "Launch `turtlesim/launch/multisim.launch.py` để chạy 2 turtlesim_node sau đó publish data để 2 turtle di chuyển theo 1 đường tròn.md",
+    "ROS/ROS2 - Humble/Tutorial/Problems/Tạo và config pub-sub nodes có sẵn bằng Python.md",
+    "ROS/ROS2 - Humble/Tutorial/2. Client libraries.md",
+    "ROS/ROS2 - Humble/Tutorial/Problems/Tạo và config pub-sub nodes có sẵn bằng C++.md",
+    "ROS/ROS2 - Humble/Tutorial/Problems/Build một workspace có sẵn.md",
+    "ROS/ROS2 - Humble/Tutorial/Problems/Fix include path.md",
     "ROS/ROS2 - Humble/Tutorial/Problems/demo_publish.md",
+    "ROS/ROS2 - Humble/Tutorial/Problems/Tạo workspace và clone package và sau đó build + run node để test.md",
+    "ROS/ROS2 - Humble/Tutorial/Problems/Tạo workspace với package có một node cơ bản. Sau đó build và run node đó..md",
+    "ROS/ROS2 - Humble/Tutorial/1. CLI tools.md",
+    "ROS/ROS2 - Humble/Tutorial/Intermediate.md",
+    "ROS/ROS2 - Humble/Tutorial/Problems/Cấu hình `CMakeLists.txt` phục vụ cho việc build ROS2 package.md",
+    "ROS/ROS2 - Humble/Tutorial/Problems/Cấu hình `package.xml` để khai báo thông tin của package như dependencies cho ROS2 quản lý.md",
+    "ROS/ROS2 - Humble/Tutorial/Problems/Working with ROS 2 enviroment.md",
+    "ROS/ROS2 - Humble/Tutorial/Problems/demo_launch.md",
+    "ROS/ROS2 - Humble/Tutorial/Problems/Điều gì sẽ xảy ra khi sử dụng 2 tham số `--node-name` trong cùng 1 cmd `ros2 pkg create` ?.md",
     "Publish data trên `/turtle1/cmd_vel` để turtle di chuyển thành 1 hình tròn ?.md",
+    "Launch `turtlesim/launch/multisim.launch.py` để chạy 2 turtlesim_node sau đó publish data để 2 turtle di chuyển theo 1 đường tròn.md",
     "Launch `turtlesim/launch",
     "Launch `turtlesim",
-    "ROS/ROS2 - Humble/Tutorial/2. Client libraries.md",
     "ROS/ROS2 - Humble/Gazebo/Gazebo plugin in ROS.md",
     "ROS/ROS2 - Humble/Gazebo/Building a robot.md",
-    "ROS/ROS2 - Humble/Tutorial/Intermediate.md",
     "Publish data trên `/turtle1",
     "Publish data trên `",
     "ROS/ROS2 - Humble/Tutorial/Problems/Run 2 turtle ?.md",
     "ROS/ROS2 - Humble/Tutorial/Problems/Run 2 turtlesim_node trên cùng 1 GUI ?.md",
     "ROS/ROS2 - Humble/Install & Setup.md",
-    "ROS/ROS2 - Humble/Tutorial/Problems/Working with ROS 2 enviroment.md",
     "ROS/ROS2 - Humble/Tutorial/Problems",
     "TurtleBot3/Tutorial.md",
     "TurtleBot3/Install & Setup.md",
     "README.md",
     "Learning.md",
-    "Untitled.md",
     "Operating Systems/Linux/linux.pdf",
-    "Development Environment/VCS/Github.md",
     "Operating Systems/Ubuntu cmd/linux.pdf.crdownload",
     "Operating Systems/Linux",
-    "Operating Systems/Install & Setup/ubuntu_22.04.md",
-    "Operating Systems/Install & Setup/Ubuntu.md",
-    "Operating Systems/Install & Setup/Ubuntu_24.04_LTS.md",
-    "Operating Systems/Install & Setup/Windows_11.md",
-    "Operating Systems/Install & Setup/Overview.md",
-    "Operating Systems/Ubuntu/IDE/IDE.md",
-    "Operating Systems/Ubuntu/IDE/PyCharm.md",
     "Development Environment/IDE/JetBrains",
     "Development Environment/DBMS",
     "Untitled.canvas",
