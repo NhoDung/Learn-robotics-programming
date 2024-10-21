@@ -97,5 +97,5 @@
 > [!question] Problem 1: Demo publisher & subscriber
 
 
-> [!summary] After installing ROS2 -> Go next to `Tutorial`
+> [!summary] After installing ROS2 -> Go next to `/ROS2 - Humble/Tutorial`
 

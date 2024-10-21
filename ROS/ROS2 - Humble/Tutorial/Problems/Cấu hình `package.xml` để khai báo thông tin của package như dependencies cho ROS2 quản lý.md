@@ -6,6 +6,9 @@
 > - Step 4: (Không bắt buộc) Khai báo các test dependencies
 > - Step 5: Xuất thông tin của build tool
 
+
+## 1. C++
+
 - Đoạn code bắt buộc phải có trong `package.xml` :
 ```XML
 	<buildtool_depend>ament_cmake</buildtool_depend>
@@ -17,3 +20,18 @@
 		<build_type>ament_cmake</build_type>
 	</export>
 ```
+
+
+## 2. Python
+
+- Đoạn code bắt buộc phải có trong `package.xml` :
+
+```XML
+	<exec_depend>rclpy</exec_depend>
+	<exec_depend>std_msgs</exec_depend>
+```
+
+
+> [!question] Tại sao phải dùng <exec_depend> với python package còn với cpp package thì không ?
+> Do Python là interpreter language còn Cpp là compiler language
+

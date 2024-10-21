@@ -16,7 +16,7 @@
 - [Gazebo Tutorials — Gazebo harmonic documentation (gazebosim.org)](https://gazebosim.org/docs/latest/tutorials/) : New Gazebo
 - [Nav2 — Nav2 1.0.0 documentation](https://docs.nav2.org/)
 - [Welcome to the ros2_control documentation! — ROS2_Control: Rolling Sep 2024 documentation](https://control.ros.org/rolling/index.html)
-
+- [All packges for Humble](https://docs.ros.org/en/humble/p/)
 ## 3. Recommendation for installation
 
 - OS: [Ubuntu Jammy 22.04](https://www.releases.ubuntu.com/jammy/)
