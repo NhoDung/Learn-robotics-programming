@@ -1,10 +1,10 @@
 # Setup & Tutorial for Robotics Programming
 
-> Note: Clone this repository and using Obsidian to read
+> Note: Clone this repository and using Obsidian to read with full experiment
 
 ## 1. Introduction
 
-- ROS2 is an open-source to program with robotics
+- ROS2 is an open-source to program with robot
 - Some main tools for ROS 2:
 	- Gazebo : Simulator
 	- Rviz : Visualizer
@@ -22,7 +22,7 @@
 - OS: [Ubuntu Jammy 22.04](https://www.releases.ubuntu.com/jammy/)
 - ROS distribution: [ROS 2 Humble Hawksbill](https://www.ros.org/reps/rep-2000.html#humble-hawksbill-may-2022-may-2027)
 - Gazebo distribution: [Gazebo Fortress (gazebosim.org)](https://gazebosim.org/docs/fortress/install)
-- Robot: Turtlebot 3
+- Robot: [TurtleBot 3](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/)
 
 > [!warning] This repository currently using Gazebo Classic
 

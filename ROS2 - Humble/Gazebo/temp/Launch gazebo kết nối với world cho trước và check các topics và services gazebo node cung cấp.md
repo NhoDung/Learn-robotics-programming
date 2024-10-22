@@ -19,5 +19,5 @@
 
 ```bash
 	# Set entity state with twist
-	ros2 service call /set_entity_state gazebo_msgs/srv/SetEntityState "{state: {name: 'unit_box', twist: {linear: {x: 12.0, y: 0.0, z: 12.0}, angular: {x: 0.0, y: 0.0, z: 10.0}}}}"
+	ros2 service call /set_entity_state gazebo_msgs/srv/SetEntityState "{state: {name: 'unit_box', twist: {linear: {x: 12.0, z: 12.0}, angular: {z: 10.0}}}}"
 ```

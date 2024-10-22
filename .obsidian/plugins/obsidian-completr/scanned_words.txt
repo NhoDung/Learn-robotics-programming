@@ -32,6 +32,8 @@ ngu
 ngo
 ngay
 named
+nav
+nhanh
 edges
 ecosystem
 expertise
@@ -76,6 +78,11 @@ edit
 effort
 environmental
 estimation
+entities
+enhancement
+experiment
+elevation
+event
 day
 dfdf
 dung
@@ -125,6 +132,9 @@ defines
 depend
 developer
 door
+dynamic
+delete
+describe
 This
 Tr
 Thi
@@ -170,6 +180,8 @@ Truy
 Thay
 Tree
 Ta
+Terminology
+Translation
 is
 information
 install
@@ -207,6 +219,8 @@ integration
 insert
 import
 image
+intermediate
+inertia
 callout
 care
 center
@@ -302,6 +316,8 @@ communicate
 compute
 complex
 customing
+clients
+camera
 Hadoop
 High
 HDFS
@@ -372,6 +388,9 @@ ang
 ambient
 attack
 algorithm
+absoluted
+already
+alert
 Distributed
 Data
 Domain
@@ -417,6 +436,8 @@ Demo
 Dependent
 Dependency
 Dynamic
+Digital
+DEM
 Object
 OS
 Office
@@ -479,6 +500,7 @@ one
 objects
 own
 output
+object
 platform
 ph
 property
@@ -543,6 +565,9 @@ planning
 plan
 planned
 planner
+position
+parameters
+press
 Apache
 Access
 Add
@@ -573,6 +598,7 @@ Animated
 Animate
 API
 Advanced
+Attach
 th
 trong
 tr
@@ -642,6 +668,9 @@ tree
 tasks
 task
 tolerant
+tab
+terminology
+thao
 li
 list
 like
@@ -685,6 +714,9 @@ locates
 loads
 loop
 lifecycle
+lights
+light
+laser
 MapReduce
 Microsoft
 MinGW
@@ -718,6 +750,7 @@ Make
 Meshes
 Move
 Mu
+Modifying
 kh
 ki
 khi
@@ -734,6 +767,8 @@ kf
 kF
 knowledge
 khai
+kill
+keyboard
 sinh
 slide
 song
@@ -821,6 +856,11 @@ situation
 smooother
 smoother
 spawn
+skill
+sky
+static
+shapes
+surface
 metadata
 management
 modern
@@ -870,6 +910,8 @@ messages
 master
 manage
 make
+move
+materials
 bu
 big
 boot
@@ -908,6 +950,7 @@ back
 bond
 bringup
 bad
+buildings
 Slide
 Science
 Setup
@@ -959,6 +1002,10 @@ Start
 SVG
 Smooother
 State
+Scale
+Select
+Scene
+Static
 Link
 LTS
 Latex
@@ -984,6 +1031,7 @@ Light
 Let
 Logging
 Lifecycle
+Load
 Book
 Big
 Browser
@@ -1055,6 +1103,7 @@ qY
 queue
 qua
 quy
+quanh
 ho
 hi
 have
@@ -1080,6 +1129,7 @@ header
 hoa
 highest
 heart
+headers
 Education
 Edge
 Enable
@@ -1107,6 +1157,7 @@ Exit
 Editing
 Extrude
 Environmental
+Estimate
 Qu
 QZ
 QE
@@ -1168,6 +1219,7 @@ user
 utilize
 until
 unload
+utilities
 Google
 GNOME
 GUI
@@ -1202,6 +1254,7 @@ Ge
 Gd
 Gi
 Gathering
+Gh
 Ubuntu
 USB
 Update
@@ -1223,6 +1276,7 @@ UTF
 Use
 Understanding
 URI
+URDF
 Create
 Client
 Chrome
@@ -1281,6 +1335,8 @@ Cpp
 Compiling
 Can
 Cartographer
+Collection
+Chi
 run
 runtime
 running
@@ -1324,6 +1380,10 @@ resources
 recoveries
 representation
 realtime
+relative
+robots
+render
+response
 Install
 IDE
 Interpreter
@@ -1382,6 +1442,7 @@ work
 wheel
 warehouse
 wall
+want
 version
 vs
 vscode
@@ -1447,6 +1508,8 @@ finds
 feature
 fast
 fault
+framework
+functionalities
 VLC
 Visual
 Version
@@ -1502,6 +1565,11 @@ Probelm
 Ph
 Programmatic
 Planner
+Position
+Press
+Physics
+Population
+Plugins
 Restart
 Runtime
 Required
@@ -1541,6 +1609,8 @@ Relationship
 ROSS
 Respond
 Recovery
+RViz
+Rotation
 gufw
 gi
 general
@@ -1567,6 +1637,8 @@ ghi
 generation
 gzserver
 get
+global
+geometry
 Note
 NodeJS
 Notion
@@ -1689,6 +1761,8 @@ xref
 xong
 xu
 xem
+xung
+xoay
 Zalo
 Za
 Zo
