@@ -20,11 +20,12 @@
 ```bash
 	source ~/.bashrc
 	sudo apt install ros-humble-dynamixel-sdk
-	sudo apt install ros-humble-turtlebot3-msgs
 	sudo apt install ros-humble-turtlebot3
+	sudo apt install ros-humble-turtlebot3-msgs
+	sudo apt install ros-humble-turtuebot3-gazebo
 ```
 
 > [!summary] `dynamixel-sdk` là package dùng để điều khiển và giao tiếp với các động cơ
 
-
+> [!note] Để tăng khả năng tùy chỉnh thì không cần thiết phải install rồi source underlay 
 

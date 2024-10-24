@@ -13,29 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROS2 - Humble/Navigation 2/Concepts.md",
+                "file": "ROS2 - Humble/Tutorial/Temp/Tìm hiểu chung về các interface.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concepts"
+              "title": "Tìm hiểu chung về các interface"
             }
           },
           {
-            "id": "a37a71025494ad4e",
+            "id": "62de3957a040d9f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROS2 - Humble/Gazebo/Write a plugin.md",
+                "file": "ROS2 - Humble/Tutorial/2. Client libraries.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Write a plugin"
+              "title": "2. Client libraries"
+            }
+          },
+          {
+            "id": "c2a416eb6b088c3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ROS2 - Humble/Tutorial/3. Intermediate.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. Intermediate"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -153,10 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROS2 - Humble/Navigation 2/Concepts.md"
+                "file": "ROS2 - Humble/Tutorial/3. Intermediate.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Concepts"
+              "title": "Outline of 3. Intermediate"
             }
           }
         ],
@@ -180,44 +195,44 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "8efac7d009474d4d",
+  "active": "c2a416eb6b088c3f",
   "lastOpenFiles": [
-    "ROS2 - Humble/Gazebo/2. Connect to ROS2.md",
+    "ROS2 - Humble/Tutorial/4. Advanced.md",
+    "ROS2 - Humble/Tutorial/Temp/Tìm hiểu chung về client libraries.md",
+    "ROS2 - Humble/Tutorial/2. Client libraries.md",
+    "ROS2 - Humble/Tutorial/3. Intermediate.md",
+    "ROS2 - Humble/Tutorial/Temp/Tìm hiểu chung về launch file.md",
+    "ROS2 - Humble/Tutorial/Temp/Tìm hiểu chung về node.md",
+    "ROS2 - Humble/Tutorial/Temp/Tìm hiểu chung về các interface.md",
+    "ROS2 - Humble/Tutorial/1. CLI tools.md",
+    "ROS2 - Humble/Tutorial/Temp/Run 2 turtle ?.md",
+    "ROS2 - Humble/Install & Setup.md",
+    "ROS2 - Humble/Navigation 2/temp/Thay đổi default planner plugin sang plugin tự viết thêm (đã được viết sẵn).md",
+    "ROS2 - Humble/Navigation 2/Example 1.md",
+    "ROS2 - Humble/Navigation 2/Concepts.md",
+    "ROS2 - Humble/Navigation 2/temp",
     "TurtleBot3/Install & Setup.md",
     "TurtleBot3/Tutorial.md",
+    "ROS2 - Humble/Gazebo/2. Connect to ROS2.md",
     "ROS2 - Humble/Gazebo/1. Basic.md",
-    "ROS2 - Humble/Navigation 2/Concepts.md",
-    "ROS2 - Humble/Navigation 2/Example 1.md",
     "ROS2 - Humble/Gazebo/temp/Viết một client node call tới service `SetEntityState` của plugin `gazebo_ros_state` để thay đổi model state.md",
     "ROS2 - Humble/Gazebo/temp/Launch gazebo kết nối với world cho trước và check các topics và services gazebo node cung cấp.md",
     "ROS2 - Humble/Gazebo/Write a plugin.md",
-    "ROS2 - Humble/Tutorial/3. Intermediate.md",
-    "ROS2 - Humble/Tutorial/4. Advanced.md",
     "ROS2 - Humble/Gazebo/Connect/Connect to Player.md",
     "ROS2 - Humble/Gazebo/Connect/Connect to ROS.md",
     "ROS2 - Humble/Gazebo/Gazebo plugin in ROS.md",
     "ROS2 - Humble/Gazebo/ROS plugin.md",
     "ROS2 - Humble/Gazebo/temp/Interact with world.md",
     "ROS2 - Humble/Gazebo/temp/Building editor.md",
-    "ROS2 - Humble/Gazebo/temp/Interact with models.md",
-    "ROS2 - Humble/Gazebo/Building a world.md",
-    "ROS2 - Humble/Gazebo/Building a robot.md",
-    "README.md",
-    "ROS2 - Humble/Gazebo/temp/link.md",
-    "ROS2 - Humble/Tutorial/2. Client libraries.md",
-    "ROS2 - Humble/Gazebo/temp/Run một file world có sẵn.md",
-    "ROS2 - Humble/Gazebo/temp/Gazebo environment variables.md",
-    "ROS2 - Humble/Tutorial/1. CLI tools.md",
     "ROS2 - Humble/Gazebo/temp",
     "Launch `turtlesim/launch",
     "Launch `turtlesim",
     "Publish data trên `/turtle1",
     "Publish data trên `",
-    "ROS2 - Humble/Tutorial/Problems",
+    "ROS2 - Humble/Tutorial/Temp",
     "Operating Systems/Linux/linux.pdf",
     "Operating Systems/Ubuntu cmd/linux.pdf.crdownload",
     "Operating Systems/Linux",
-    "Development Environment/IDE/JetBrains",
     "Untitled.canvas",
     "test.png",
     "Roadmap.canvas",

@@ -55,3 +55,20 @@
 
 ## 5. Environmental representation 
 
+- Environmental representation là cách mà robot sử dụng để cảm nhận environment. 
+- Đồng thời là nơi để các algorithms và data sources gộp informations lại một chỗ
+- Và sau đó những information này được các controllers, planners, recoveries sử dụng để hoàn thành tasks hiệu quả
+
+### 5.1. Costmap and layer
+
+- Môi trường được biểu diễn bằng costmap. Costmap là một tập các grids chứa cost từ unknown, free, occupied or inflated cost (chi phí gia tăng)
+- Costmap được sử dụng để tính global plan or chi phí điều khiển cục bộ
+
+- Có rất nhiều loại costmap layer được viết bởi pluginlib plugins để thêm thông tin vào costmap. Ví dụ: Lidar, radar, sonar, depth images, etc
+- Costmap layers có thể được sử dụng để detect and track obstacle
+
+### 5.2. Costmap filter 
+
+- Costmap filter được triển khai dưới dạng costmap plugin
+- Costmap filter được dùng để thay đổi hành vi của robot tùy theo không gian. 
+- Theo đó robot sẽ phát hiện được các vùng bị cấm, vùng hạn chế, vùng ưu tiên, ...
