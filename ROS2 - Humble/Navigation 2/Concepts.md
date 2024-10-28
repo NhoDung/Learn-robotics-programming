@@ -1,5 +1,3 @@
-
-
 ## 1. ROS 2
 
 > [!note] 2 khái niệm của ROS 2 cần nắm là:
@@ -19,17 +17,9 @@
 > 	- xác định behavior của ROS2 system trong khi startup và shutdown
 > 	- cấu trúc program theo một số cách hợp lý
 
-
-
-
-
 ## 2. Bahavior tree
 
 > [!note] Behavior tree ưu việt hơn so với FSM (Finite state machine) trong complex robotics tasks
-
-
-
-
 
 ## 3. Navigation servers
 
@@ -41,17 +31,9 @@
 > - Các servers này chứa một map của algorithm plugins để hoàn thành task 
 > - Các servers này cũng chứa environmental representation được algorithm plugins sử dụng để compute output 
 
-
 > [!abstract] Một số đặc điểm của các action servers:
 > - Planner, controller và smoother servers sẽ được cấu hình khi chạy bằng tên và kiểu thuật toán được sử dụng
-
-
-
-
 ## 4. State estimation 
-
-
-
 
 ## 5. Environmental representation 
 

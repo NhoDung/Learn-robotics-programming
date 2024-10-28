@@ -1,0 +1,1 @@
+/home/nhodung/Documents/ros2_learn/set_model_position/src/model_pos/launch/launch_gazebo_and_node.launch.py

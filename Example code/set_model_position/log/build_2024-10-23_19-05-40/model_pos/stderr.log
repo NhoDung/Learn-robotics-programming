@@ -1,0 +1,10 @@
+[01m[K/home/nhodung/Documents/ros2_learn/set_model_position/src/model_pos/src/set_state_node.cpp:[m[K In constructor ‘[01m[KSetStateClient::SetStateClient()[m[K’:
+[01m[K/home/nhodung/Documents/ros2_learn/set_model_position/src/model_pos/src/set_state_node.cpp:21:59:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid SetStateClient::move_callback()[m[K’
+   21 |         timer_ = this->create_wall_timer(100ms, std::bind([01;31m[Kmove_callback[m[K, this));
+      |                                                           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nhodung/Documents/ros2_learn/set_model_position/src/model_pos/src/set_state_node.cpp:28:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   28 |     void [01;36m[Kmove_callback[m[K()
+      |          [01;36m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/set_state_node.dir/build.make:76: CMakeFiles/set_state_node.dir/src/set_state_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/set_state_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

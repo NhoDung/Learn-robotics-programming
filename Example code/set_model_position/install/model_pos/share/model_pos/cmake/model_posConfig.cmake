@@ -1,0 +1,1 @@
+/home/nhodung/Documents/ros2_learn/set_model_position/build/model_pos/ament_cmake_core/model_posConfig.cmake

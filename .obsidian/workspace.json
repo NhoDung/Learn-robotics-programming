@@ -27,26 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROS2 - Humble/Tutorial/2. Client libraries.md",
+                "file": "ROS2 - Humble/Navigation 2/Example 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Client libraries"
+              "title": "Example 1"
             }
           },
           {
-            "id": "c2a416eb6b088c3f",
+            "id": "4be98a058ee0e7e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROS2 - Humble/Tutorial/3. Intermediate.md",
+                "file": "ROS2 - Humble/Navigation 2/temp/Run a navigation example.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Intermediate"
+              "title": "Run a navigation example"
             }
           }
         ],
@@ -168,10 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROS2 - Humble/Tutorial/3. Intermediate.md"
+                "file": "ROS2 - Humble/Navigation 2/temp/Run a navigation example.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 3. Intermediate"
+              "title": "Outline of Run a navigation example"
             }
           }
         ],
@@ -195,44 +195,48 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "c2a416eb6b088c3f",
+  "active": "7d330f6532c61625",
   "lastOpenFiles": [
+    "ros_setup.sh",
+    "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_teleop/streams.log",
+    "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_teleop/stdout_stderr.log",
+    "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_teleop/stdout.log",
+    "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_teleop/stderr.log",
+    "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_teleop/command.log",
+    "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_simulations/streams.log",
+    "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_simulations/stdout_stderr.log",
+    "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_simulations/stdout.log",
+    "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_simulations/stderr.log",
+    "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_simulations/command.log",
+    "Example code/test_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg",
+    "Example code/test_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg",
+    "Example code/test_ws/src/DynamixelSDK/README.md",
+    "Example code/test_ws/src/DynamixelSDK/CONTRIBUTING.md",
+    "Example code/test_ws/src/turtlebot3/turtlebot3_description/meshes/sensors/r200.jpg",
+    "Example code/test_ws/src/turtlebot3/turtlebot3_description/meshes/sensors/astra.jpg",
+    "Example code/test_ws/src/turtlebot3/README.md",
+    "Example code/test_ws/src/turtlebot3/ISSUE_TEMPLATE.md",
+    "Example code/test_ws/src/turtlebot3/CONTRIBUTING.md",
+    "Example code/test_ws/src/turtlebot3_simulations/README.md",
+    "Example code/test_ws/src/turtlebot3_simulations/CONTRIBUTING.md",
+    "Example code/test_ws/src/turtlebot3_msgs/README.md",
+    "ROS2 - Humble/Navigation 2/Example 1.md",
+    "ROS2 - Humble/Navigation 2/Tutorial.md",
+    "ROS2 - Humble/Navigation 2/Concepts.md",
+    "TurtleBot3/Install & Setup.md",
+    "ROS2 - Humble/Install & Setup.md",
+    "ROS2 - Humble/Navigation 2/temp/Run a navigation example.md",
+    "TurtleBot3/Tutorial.md",
+    "README.md",
+    "ROS2 - Humble/Gazebo/temp/link.md",
+    "ROS2 - Humble/Tutorial/3. Intermediate.md",
     "ROS2 - Humble/Tutorial/4. Advanced.md",
     "ROS2 - Humble/Tutorial/Temp/Tìm hiểu chung về client libraries.md",
     "ROS2 - Humble/Tutorial/2. Client libraries.md",
-    "ROS2 - Humble/Tutorial/3. Intermediate.md",
     "ROS2 - Humble/Tutorial/Temp/Tìm hiểu chung về launch file.md",
     "ROS2 - Humble/Tutorial/Temp/Tìm hiểu chung về node.md",
     "ROS2 - Humble/Tutorial/Temp/Tìm hiểu chung về các interface.md",
     "ROS2 - Humble/Tutorial/1. CLI tools.md",
-    "ROS2 - Humble/Tutorial/Temp/Run 2 turtle ?.md",
-    "ROS2 - Humble/Install & Setup.md",
-    "ROS2 - Humble/Navigation 2/temp/Thay đổi default planner plugin sang plugin tự viết thêm (đã được viết sẵn).md",
-    "ROS2 - Humble/Navigation 2/Example 1.md",
-    "ROS2 - Humble/Navigation 2/Concepts.md",
-    "ROS2 - Humble/Navigation 2/temp",
-    "TurtleBot3/Install & Setup.md",
-    "TurtleBot3/Tutorial.md",
-    "ROS2 - Humble/Gazebo/2. Connect to ROS2.md",
-    "ROS2 - Humble/Gazebo/1. Basic.md",
-    "ROS2 - Humble/Gazebo/temp/Viết một client node call tới service `SetEntityState` của plugin `gazebo_ros_state` để thay đổi model state.md",
-    "ROS2 - Humble/Gazebo/temp/Launch gazebo kết nối với world cho trước và check các topics và services gazebo node cung cấp.md",
-    "ROS2 - Humble/Gazebo/Write a plugin.md",
-    "ROS2 - Humble/Gazebo/Connect/Connect to Player.md",
-    "ROS2 - Humble/Gazebo/Connect/Connect to ROS.md",
-    "ROS2 - Humble/Gazebo/Gazebo plugin in ROS.md",
-    "ROS2 - Humble/Gazebo/ROS plugin.md",
-    "ROS2 - Humble/Gazebo/temp/Interact with world.md",
-    "ROS2 - Humble/Gazebo/temp/Building editor.md",
-    "ROS2 - Humble/Gazebo/temp",
-    "Launch `turtlesim/launch",
-    "Launch `turtlesim",
-    "Publish data trên `/turtle1",
-    "Publish data trên `",
-    "ROS2 - Humble/Tutorial/Temp",
-    "Operating Systems/Linux/linux.pdf",
-    "Operating Systems/Ubuntu cmd/linux.pdf.crdownload",
-    "Operating Systems/Linux",
     "Untitled.canvas",
     "test.png",
     "Roadmap.canvas",

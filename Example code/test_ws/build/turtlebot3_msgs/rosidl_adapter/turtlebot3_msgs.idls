@@ -1,0 +1,6 @@
+/home/nhodung/Documents/ros2_learn/test_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/SensorState.idl
+/home/nhodung/Documents/ros2_learn/test_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/Sound.idl
+/home/nhodung/Documents/ros2_learn/test_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/VersionInfo.idl
+/home/nhodung/Documents/ros2_learn/test_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:srv/Sound.idl
+/home/nhodung/Documents/ros2_learn/test_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:srv/Dqn.idl
+/home/nhodung/Documents/ros2_learn/test_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:action/Patrol.idl

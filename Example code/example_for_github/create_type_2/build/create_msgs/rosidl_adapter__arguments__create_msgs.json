@@ -1,0 +1,8 @@
+{
+  "package_name": "create_msgs",
+  "non_idl_tuples": [
+    "/home/nhodung/Documents/ros2_learn/example_for_github/create_type_2/src/create_msgs:msg/Num.msg",
+    "/home/nhodung/Documents/ros2_learn/example_for_github/create_type_2/src/create_msgs:msg/Sphere.msg",
+    "/home/nhodung/Documents/ros2_learn/example_for_github/create_type_2/src/create_msgs:srv/AddThreeInts.srv"
+  ]
+}

@@ -191,6 +191,7 @@ Ta
 Terminology
 Translation
 Theo
+Tuning
 is
 information
 install
@@ -1264,6 +1265,7 @@ utilities
 unknown
 unit
 underlying
+underlay
 Google
 GNOME
 GUI
@@ -1691,6 +1693,7 @@ global
 geometry
 grids
 gia
+guide
 Note
 NodeJS
 Notion
@@ -1768,6 +1771,7 @@ Fix
 File
 FSM
 Finite
+First
 your
 yU
 yD

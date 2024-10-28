@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/test_model_state/test_model_state.egg-info
+writing ../../build/test_model_state/test_model_state.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_model_state/test_model_state.egg-info/dependency_links.txt
+writing entry points to ../../build/test_model_state/test_model_state.egg-info/entry_points.txt
+writing requirements to ../../build/test_model_state/test_model_state.egg-info/requires.txt
+writing top-level names to ../../build/test_model_state/test_model_state.egg-info/top_level.txt
+writing manifest file '../../build/test_model_state/test_model_state.egg-info/SOURCES.txt'
+reading manifest file '../../build/test_model_state/test_model_state.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_model_state/test_model_state.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/build/test_model_state/build
+creating /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/build/test_model_state/build/lib
+creating /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/build/test_model_state/build/lib/test_model_state
+copying test_model_state/linear_path_one_human.py -> /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/build/test_model_state/build/lib/test_model_state
+copying test_model_state/__init__.py -> /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/build/test_model_state/build/lib/test_model_state
+running install
+running install_lib
+creating /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/install/test_model_state/lib/python3.10/site-packages/test_model_state
+copying /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/build/test_model_state/build/lib/test_model_state/linear_path_one_human.py -> /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/install/test_model_state/lib/python3.10/site-packages/test_model_state
+copying /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/build/test_model_state/build/lib/test_model_state/__init__.py -> /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/install/test_model_state/lib/python3.10/site-packages/test_model_state
+byte-compiling /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/install/test_model_state/lib/python3.10/site-packages/test_model_state/linear_path_one_human.py to linear_path_one_human.cpython-310.pyc
+byte-compiling /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/install/test_model_state/lib/python3.10/site-packages/test_model_state/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/install/test_model_state/share/ament_index
+creating /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/install/test_model_state/share/ament_index/resource_index
+creating /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/install/test_model_state/share/ament_index/resource_index/packages
+copying resource/test_model_state -> /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/install/test_model_state/share/ament_index/resource_index/packages
+copying package.xml -> /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/install/test_model_state/share/test_model_state
+running install_egg_info
+Copying ../../build/test_model_state/test_model_state.egg-info to /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/install/test_model_state/lib/python3.10/site-packages/test_model_state-0.0.0-py3.10.egg-info
+running install_scripts
+Installing linear_path_one_human script to /home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/install/test_model_state/lib/test_model_state
+writing list of installed files to '/home/nhodung/Documents/ROS 2 Projects Collection/test_anh_dung/build/test_model_state/install.log'

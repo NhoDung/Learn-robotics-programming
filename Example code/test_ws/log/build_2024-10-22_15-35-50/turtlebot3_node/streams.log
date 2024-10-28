@@ -1,0 +1,73 @@
+[0.013s] Invoking command in '/home/nhodung/Documents/ros2_learn/test_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs/lib:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nhodung/Documents/ros2_learn/test_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node
+[0.024s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.184s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.194s] -- Found dynamixel_sdk: 3.7.60 (/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.198s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.238s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.243s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.254s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.292s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.334s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[0.381s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.385s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.548s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.601s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.666s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.679s] -- Looking for pthread.h
+[0.887s] -- Looking for pthread.h - found
+[0.887s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.149s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.150s] -- Found Threads: TRUE  
+[1.237s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.281s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.317s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.362s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.377s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.511s] -- Found turtlebot3_msgs: 2.2.3 (/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[1.630s] -- Configuring done
+[1.658s] -- Generating done
+[1.661s] -- Build files have been written to: /home/nhodung/Documents/ros2_learn/test_ws/build/turtlebot3_node
+[1.677s] Invoked command in '/home/nhodung/Documents/ros2_learn/test_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs/lib:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nhodung/Documents/ros2_learn/test_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node
+[1.679s] Invoking command in '/home/nhodung/Documents/ros2_learn/test_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs/lib:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nhodung/Documents/ros2_learn/test_ws/build/turtlebot3_node -- -j12 -l12
+[1.727s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[1.728s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[1.728s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[1.728s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[1.728s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[1.728s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[1.728s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[1.729s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[1.731s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[1.733s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[1.733s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[20.683s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[21.203s] [ 85%] Built target turtlebot3_node_lib
+[21.219s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[24.387s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[26.029s] [100%] Built target turtlebot3_ros
+[26.039s] Invoked command in '/home/nhodung/Documents/ros2_learn/test_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs/lib:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nhodung/Documents/ros2_learn/test_ws/build/turtlebot3_node -- -j12 -l12
+[26.076s] Invoking command in '/home/nhodung/Documents/ros2_learn/test_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs/lib:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nhodung/Documents/ros2_learn/test_ws/build/turtlebot3_node
+[26.082s] -- Install configuration: ""
+[26.082s] -- Execute custom install script
+[26.082s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[26.090s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[26.098s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[26.105s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[26.113s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[26.121s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[26.129s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[26.136s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[26.145s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[26.154s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[26.165s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[26.172s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[26.180s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[26.188s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[26.195s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[26.204s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[26.212s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.220s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[26.227s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[26.236s] -- Symlinking: /home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[26.245s] Invoked command in '/home/nhodung/Documents/ros2_learn/test_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs/lib:/home/nhodung/Documents/ros2_learn/test_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/nhodung/Documents/ros2_learn/test_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nhodung/Documents/ros2_learn/test_ws/build/turtlebot3_node
