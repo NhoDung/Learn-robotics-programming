@@ -1,1 +1,0 @@
-/home/nhodung/Documents/ros2_learn/example_for_github/create_type/src/create_msgs/msg/Sphere.msg

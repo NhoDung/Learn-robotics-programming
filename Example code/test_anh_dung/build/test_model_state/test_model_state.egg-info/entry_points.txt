@@ -1,3 +1,0 @@
-[console_scripts]
-linear_path_one_human = test_model_state.linear_path_one_human:main
-
