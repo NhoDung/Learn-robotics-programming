@@ -17,6 +17,8 @@ sudo apt install -y ros-humble-desktop ros-dev-tools
 
 # Add source env to .bashrc
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+echo "source /usr/share/gazebo/setup.bash" >> ~/.bashrc
+echo "export TURTLEBOT3_MODEL=waffle" >> ~/.bashrc
 
 # ROS manage tools
 sudo apt update
@@ -24,11 +26,11 @@ sudo apt install -y ~nros-humble-rqt* python3-rosdep python3-colcon-common-exten
 sudo apt install -y ros-humble-rviz2 ros-humble-turtle-tf2-py ros-humble-tf2-ros ros-humble-tf2-tools ros-humble-turtlesim
 
 # Gazebo pkg
-sudo apt install ros-humble-gazebo-*
+sudo apt install -y ros-humble-gazebo-*
 # Cartographer pkg
-sudo apt install ros-humble-cartographer ros-humble-cartographer-ros
+sudo apt install -y ros-humble-cartographer ros-humble-cartographer-ros
 # Navigation 2 pkg
-sudo apt install ros-humble-navigation2 ros-humble-nav2-bringup
+sudo apt install -y ros-humble-navigation2 ros-humble-nav2-bringup
 
 # Gazebo simulation
 sudo apt install -y gazebo

@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROS2 - Humble/Navigation 2/temp/Run a navigation example.md",
+                "file": "TurtleBot3/Install & Setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Run a navigation example"
+              "title": "Install & Setup"
             }
           }
         ],
@@ -168,10 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROS2 - Humble/Navigation 2/temp/Run a navigation example.md"
+                "file": "TurtleBot3/Install & Setup.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Run a navigation example"
+              "title": "Outline of Install & Setup"
             }
           }
         ],
@@ -195,9 +195,22 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "7d330f6532c61625",
+  "active": "4be98a058ee0e7e0",
   "lastOpenFiles": [
     "ros_setup.sh",
+    "Script/ros_setup.sh",
+    "Script",
+    "TurtleBot3/Tutorial.md",
+    "ROS2 - Humble/Navigation 2/temp/Thay đổi default planner plugin sang plugin tự viết thêm (đã được viết sẵn).md",
+    "ROS2 - Humble/Tutorial/Temp/Fix include path.md",
+    "ROS2 - Humble/Tutorial/2. Client libraries.md",
+    "ROS2 - Humble/Tutorial/1. CLI tools.md",
+    "ROS2 - Humble/Install & Setup.md",
+    "ROS2 - Humble/Navigation 2/Example 1.md",
+    "ROS2 - Humble/Navigation 2/Tutorial.md",
+    "ROS2 - Humble/Navigation 2/temp/Run a navigation example.md",
+    "TurtleBot3/Install & Setup.md",
+    "ROS2 - Humble/Tutorial/Temp/Tìm hiểu chung về các interface.md",
     "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_teleop/streams.log",
     "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_teleop/stdout_stderr.log",
     "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_teleop/stdout.log",
@@ -206,8 +219,6 @@
     "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_simulations/streams.log",
     "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_simulations/stdout_stderr.log",
     "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_simulations/stdout.log",
-    "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_simulations/stderr.log",
-    "Example code/test_ws/log/build_2024-10-22_15-37-19/turtlebot3_simulations/command.log",
     "Example code/test_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg",
     "Example code/test_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg",
     "Example code/test_ws/src/DynamixelSDK/README.md",
@@ -220,23 +231,12 @@
     "Example code/test_ws/src/turtlebot3_simulations/README.md",
     "Example code/test_ws/src/turtlebot3_simulations/CONTRIBUTING.md",
     "Example code/test_ws/src/turtlebot3_msgs/README.md",
-    "ROS2 - Humble/Navigation 2/Example 1.md",
-    "ROS2 - Humble/Navigation 2/Tutorial.md",
     "ROS2 - Humble/Navigation 2/Concepts.md",
-    "TurtleBot3/Install & Setup.md",
-    "ROS2 - Humble/Install & Setup.md",
-    "ROS2 - Humble/Navigation 2/temp/Run a navigation example.md",
-    "TurtleBot3/Tutorial.md",
     "README.md",
     "ROS2 - Humble/Gazebo/temp/link.md",
     "ROS2 - Humble/Tutorial/3. Intermediate.md",
     "ROS2 - Humble/Tutorial/4. Advanced.md",
     "ROS2 - Humble/Tutorial/Temp/Tìm hiểu chung về client libraries.md",
-    "ROS2 - Humble/Tutorial/2. Client libraries.md",
-    "ROS2 - Humble/Tutorial/Temp/Tìm hiểu chung về launch file.md",
-    "ROS2 - Humble/Tutorial/Temp/Tìm hiểu chung về node.md",
-    "ROS2 - Humble/Tutorial/Temp/Tìm hiểu chung về các interface.md",
-    "ROS2 - Humble/Tutorial/1. CLI tools.md",
     "Untitled.canvas",
     "test.png",
     "Roadmap.canvas",

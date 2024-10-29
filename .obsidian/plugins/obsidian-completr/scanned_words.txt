@@ -143,6 +143,7 @@ deliver
 distributed
 discovery
 domain
+danh
 This
 Tr
 Thi
@@ -235,6 +236,7 @@ informations
 inflated
 images
 implement
+int
 callout
 care
 center
@@ -337,6 +339,12 @@ costmap
 cost
 computation
 configurable
+continous
+char
+constant
+consumers
+concept
+cancel
 Hadoop
 High
 HDFS
@@ -412,6 +420,10 @@ already
 alert
 algorithms
 automatically
+applications
+array
+architecture
+anonymous
 Distributed
 Data
 Domain
@@ -460,6 +472,7 @@ Dynamic
 Digital
 DEM
 Discovery
+Describe
 Object
 OS
 Office
@@ -596,6 +609,10 @@ parameters
 press
 planners
 pluginlib
+producers
+procedure
+parts
+preempt
 Apache
 Access
 Add
@@ -627,6 +644,7 @@ Animate
 API
 Advanced
 Attach
+Anonymous
 th
 trong
 tr
@@ -702,6 +720,9 @@ thao
 track
 trajectories
 thing
+typed
+tell
+travel
 li
 list
 like
@@ -751,6 +772,7 @@ laser
 layer
 layers
 logical
+long
 MapReduce
 Microsoft
 MinGW
@@ -898,6 +920,10 @@ surface
 sources
 sonar
 subscribe
+send
+strems
+short
+subsystem
 metadata
 management
 modern
@@ -990,6 +1016,8 @@ bond
 bringup
 bad
 buildings
+ba
+bus
 Slide
 Science
 Setup
@@ -1045,6 +1073,8 @@ Scale
 Select
 Scene
 Static
+Support
+Strongly
 Link
 LTS
 Latex
@@ -1171,6 +1201,7 @@ hoa
 highest
 heart
 headers
+high
 Education
 Edge
 Enable
@@ -1433,6 +1464,11 @@ robots
 render
 response
 radar
+receive
+remote
+request
+return
+result
 Install
 IDE
 Interpreter
@@ -1493,6 +1529,7 @@ warehouse
 wall
 want
 waffle
+waypoint
 version
 vs
 vscode
@@ -1520,6 +1557,7 @@ va
 visual
 vehicle
 vai
+value
 file
 fix
 firewall
@@ -1562,6 +1600,8 @@ framework
 functionalities
 filter
 functionality
+fields
+feedback
 VLC
 Visual
 Version
@@ -1694,6 +1734,7 @@ geometry
 grids
 gia
 guide
+generate
 Note
 NodeJS
 Notion
@@ -1820,6 +1861,7 @@ xu
 xem
 xung
 xoay
+xa
 Zalo
 Za
 Zo

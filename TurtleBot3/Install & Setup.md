@@ -29,3 +29,10 @@
 
 > [!note] Để tăng khả năng tùy chỉnh thì không cần thiết phải install rồi source underlay 
 
+## 1. Setup enviroment
+
+```bash
+	echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+	echo "source /usr/share/gazebo/setup.bash" >> ~/.bashrc
+	echo "export TURTLEBOT3_MODEL=waffle" >> ~/.bashrc
+```
