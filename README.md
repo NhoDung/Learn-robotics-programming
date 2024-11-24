@@ -26,3 +26,13 @@
 
 > [!warning] This repository currently using Gazebo Classic
 
+## 4. All setup
+
+- Clone this repository and run cmd:
+```bash
+	source ros_setup.sh
+```
+- This cmd will install and setup 
+	- ROS2 system & tools 
+	- Commnon ROS2 packages: Gazebo_ros_pkgs, Navigation2, Cartographer, ...
+	- Gazebo simulator
