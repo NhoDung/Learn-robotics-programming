@@ -2,12 +2,30 @@
 ~
 ---
 > [!abstract] Ý nghĩa các package con của `Nav2`
+> - `nav2_bringup` : Chứa launch file cho nav2 or turtlebot 3
+> - `nav2_map_server` & `nav2_amcl` : Dùng để quản lý map và estimate pose trong map
+> - `nav2_planner` & `nav2_controller` : Là các task server chứa các interface quan trọng như: `ComputePathToPose` và `FollowPath`
+> - `nav2_core` : Triển khai các task server cơ bản và các plugin đi kèm
 
-## 1. `nav2_bringup`
+## 1. `nav2_core`
+
+> [!info] `nav2_core` : là package chứa các abstract interface để triển các khai các plugins
+> - Global planner: 
+> - Controller: 
+> - Smoother: 
+> - Goal checker: 
+> - Behavior:
+> - Progress checker: 
+> - Waypoint task executor 
+> - Exception in planning and controlling
+
+- Các plugin được hosted bởi các Task Server để handle các requests và các algorithm plugins instances
+
+## 2. `nav2_bringup`
 
 > [!info] `nav2_bringup` là package chứa các file launch mẫu để dễ dàng triển khai Nav2
 
-## 2. `nav2_map_server`
+## 3. `nav2_map_server`
 
 > [!info] `nav2_map_server` dùng để cung cấp map tới phần còn lại của Nav2 system. Map server có thể:
 > - Cung cấp map khi node bringup
@@ -36,7 +54,7 @@
 > - Có thể cấu hình maps khác nhau cho nhiều map server khác nhau trong cùng một file cấu hình
 > - Hiện tại chỉ hỗ chợ OccupancyGrid map
 
-## 3. `nav2_amcl`
+## 4. `nav2_amcl`
 
 > [!info] `nav2_amcl` là một module để xác định pose (position và orientation) của robot trong một map cho trước
 
@@ -44,7 +62,7 @@
 > - Đây là một probabilistic localization module (module vị trí dựa trên xác suất) 
 > - Vị trí được ước tính trên map cho trước bằng cách sử dụng một 2D laser scanner
 
-## 4. `nav2_planner`
+## 5. `nav2_planner`
 
 > [!info] `nav2_planner` là một Task Server triển khai `nav2_behavior_tree::ComputePathToPose` interface
 
@@ -55,10 +73,10 @@
 
 > [!important] Note: `Có thể sử dụng planner plugin để viết thuật toán nhưng chỉ việc được bằng C++`
 
-## 5. `nav2_controller`
+## 6. `nav2_controller`
 
 > [!info] `nav2_controller` là một Task Server triển khai `nav2_msgs::action::FollowPath` interface
 
 
-## 6. `nav2_bt_navigator`
+## 7. `nav2_bt_navigator`
 
