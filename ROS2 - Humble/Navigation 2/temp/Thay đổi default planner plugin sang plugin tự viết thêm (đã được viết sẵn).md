@@ -13,26 +13,26 @@
 - Step 2: Chuyển đến directory `src/turtlebot3_navigation2/param/waffle.yaml` (Do model đang chọn là waffle) và thay thế:
 
 ```yaml
-	planner_server:
-		ros__parameters:
-		plugins: ["GridBased"]
-		use_sim_time: True
-		GridBased:
-		    plugin: "nav2_navfn_planner/NavfnPlanner" # For Foxy and later. In Iron and older versions, "/" was used instead of "::"
-		    tolerance: 2.0
-			use_astar: false
-		    allow_unknown: true
+planner_server:
+	ros__parameters:
+	plugins: ["GridBased"]
+	use_sim_time: True
+	GridBased:
+		plugin: "nav2_navfn_planner/NavfnPlanner" # For Foxy and later. In Iron and older versions, "/" was used instead of "::"
+		tolerance: 2.0
+		use_astar: false
+		allow_unknown: true
 ```
 
 
 ```yaml
-	planner_server:
-		ros__parameters:
-			plugins: ["GridBased"]
-		    use_sim_time: True
-		    GridBased:
-			    plugin: "nav2_straightline_planner/StraightLine"
-			    interpolation_resolution: 0.1
+planner_server:
+	ros__parameters:
+		plugins: ["GridBased"]
+		use_sim_time: True
+		GridBased:
+			plugin: "nav2_straightline_planner/StraightLine"
+			interpolation_resolution: 0.1
 ```
 
 - Step 3: Build và source lại là được
@@ -46,3 +46,20 @@
 
 ## 2. Advanced
 
+```mermaid
+---
+config:
+  layout: fixed
+---
+flowchart LR
+    E("News data") --> F("Models") & A("NLP")
+    F --> G("Vader") & H("TextBlob")
+    G --> I("Sentiment Features")
+    H --> I
+    K("Price features") --> L("Models")
+    I --> L
+    L --> B("Basic models") & C("Deep learning models") & D("Statistics models")
+    Data[("Data")] --> E & PriceData("Price Data")
+    PriceData --> K
+    A --> TopicModeling("Topic Modeling")
+```
